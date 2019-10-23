@@ -4,6 +4,7 @@
 /* tutte le colonne sono flottate */
 [class^="col-"] {
     float: left;
+    padding: 10px;
 }
 
 /* clearfix sulla riga */
@@ -11,6 +12,11 @@
     content: "";
     display: table;
     clear: both;
+}
+
+.container {
+    width: 1170px;
+    margin: 0 auto;
 }
 
 /* *************** Colonne *************** */

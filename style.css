@@ -7,6 +7,11 @@
     box-sizing: border-box;
 }
 
+body {
+    color: #1b3c59;
+    font-size: 18px;
+}
+
 h1 {
     text-align: center;
     text-transform: capitalize;
@@ -19,22 +24,75 @@ h1 {
     clear: both;
 }
 
-.container {
-    width: 1170px;
-    margin: 0 auto;
+.l-gray {
+    background-color: #e8ebf1;
 }
 
-.lightgray {
-    background: lightgray;
+.l-blue {
+    background-color: lightblue;
+}
+
+.l-cyan {
+    background-color: lightcyan;
+}
+
+.l-yellow {
+    background-color: lightyellow;
+}
+
+.l-green {
+    background-color: lightgreen;
+}
+
+.p-green {
+    background-color: palegreen;
+}
+
+.l-pink {
+    background-color: lightpink;
+}
+
+.l-salmon {
+    background-color: lightsalmon;
+}
+
+.beige {
+    background-color: beige;
 }
 
 main, aside {
-    border: 1px solid #000;
-    height: 1000px;
+    background-color: whitesmoke;
+    color: #1b3c59;
+}
+
+main {
+    background-color: seashell;
 }
 
 footer {
     height: 100px;
+    font-size: 12px;
+}
+
+p {
+    margin-bottom: 10px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.esempio {
+    background-color: white;
+}
+
+.esempio [class^="col-"] {
+    border: 1px solid #000;
+    height: 50px;
+}
+
+.esempio .row {
+    border: 1px solid #000;
 }
 
 /* *********************** */
@@ -47,7 +105,7 @@ footer {
 }
 
 .bool-logo [class^="col-"] {
-    background: #1b3c59;
+    background-color: #1b3c59;
     height: 25px;
 }
 
@@ -56,13 +114,19 @@ footer {
 }
 
 .bool-logo [class^="col-"]:hover {
-    background: red;
+    background-color: #61ce4e;
+    /* transform: scale(0.9);
+    border-radius: 5px;
+    transition: 0.1s ease-in-out; */
 }
 
 .bool-logo .green:hover {
-    background: purple;
+    background-color: #1b3c59;
+    /* transform: scale(0.9);
+    border-radius: 5px;
+    transition: 0.1s ease-in-out; */
 }
 
 .bool-logo .green {
-    background: #61ce4e;
+    background-color: #61ce4e;
 }
